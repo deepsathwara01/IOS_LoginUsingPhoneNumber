@@ -1,6 +1,7 @@
 # IOS_LoginUsingPhoneNumber
 
-pod init
+pod init,
+
 open podfile
   - pod 'Firebase/Auth'
 pod install
