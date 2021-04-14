@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BDD391251BC1524833B4B41 /* Pods_OTP_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EF6573DC81139E75C6B4C2 /* Pods_OTP_Firebase.framework */; };
+		789CC2C1498E7B8D224BACB0 /* Pods_OTP_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7364040BE406A2C9DDB7E01 /* Pods_OTP_FirebaseTests.framework */; };
+		9BF5D7572601BA7A00E87DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5D7562601BA7A00E87DEE /* AppDelegate.swift */; };
+		9BF5D7592601BA7A00E87DEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5D7582601BA7A00E87DEE /* SceneDelegate.swift */; };
+		9BF5D75B2601BA7A00E87DEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5D75A2601BA7A00E87DEE /* ContentView.swift */; };
+		9BF5D75D2601BA7C00E87DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5D75C2601BA7C00E87DEE /* Assets.xcassets */; };
+		9BF5D7602601BA7C00E87DEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5D75F2601BA7C00E87DEE /* Preview Assets.xcassets */; };
+		9BF5D7632601BA7C00E87DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5D7612601BA7C00E87DEE /* LaunchScreen.storyboard */; };
+		9BF5D76E2601BA7C00E87DEE /* OTP_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5D76D2601BA7C00E87DEE /* OTP_FirebaseTests.swift */; };
+		9BF5D7792601BA7C00E87DEE /* OTP_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5D7782601BA7C00E87DEE /* OTP_FirebaseUITests.swift */; };
+		9BF5D78A2601BAFE00E87DEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5D7892601BAFE00E87DEE /* GoogleService-Info.plist */; };
+		A81BDAA772C93DD423DD9861 /* Pods_OTP_Firebase_OTP_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A2F4B87EBB5B5DE7E9E41 /* Pods_OTP_Firebase_OTP_FirebaseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF5D76A2601BA7C00E87DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF5D74B2601BA7A00E87DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF5D7522601BA7A00E87DEE;
+			remoteInfo = "OTP-Firebase";
+		};
+		9BF5D7752601BA7C00E87DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF5D74B2601BA7A00E87DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF5D7522601BA7A00E87DEE;
+			remoteInfo = "OTP-Firebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB08E2E485DEB7405D78255 /* Pods-OTP-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-OTP-FirebaseTests/Pods-OTP-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		4ABE96E9CE67B294074FB19C /* Pods-OTP-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-Firebase.release.xcconfig"; path = "Target Support Files/Pods-OTP-Firebase/Pods-OTP-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		4F94F875098C9EDD8ED9C766 /* Pods-OTP-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-OTP-Firebase/Pods-OTP-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		54EF6573DC81139E75C6B4C2 /* Pods_OTP_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6833AED11A6294F0D7660939 /* Pods-OTP-Firebase-OTP-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-Firebase-OTP-FirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-OTP-Firebase-OTP-FirebaseUITests/Pods-OTP-Firebase-OTP-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88CB4AEFB097657479522EAA /* Pods-OTP-FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-OTP-FirebaseTests/Pods-OTP-FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		941B0F8A199BE508EEBC20D5 /* Pods-OTP-Firebase-OTP-FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTP-Firebase-OTP-FirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-OTP-Firebase-OTP-FirebaseUITests/Pods-OTP-Firebase-OTP-FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BF5D7532601BA7A00E87DEE /* OTP-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTP-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF5D7562601BA7A00E87DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF5D7582601BA7A00E87DEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BF5D75A2601BA7A00E87DEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BF5D75C2601BA7C00E87DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF5D75F2601BA7C00E87DEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BF5D7622601BA7C00E87DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BF5D7642601BA7C00E87DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF5D7692601BA7C00E87DEE /* OTP-FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OTP-FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF5D76D2601BA7C00E87DEE /* OTP_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_FirebaseTests.swift; sourceTree = "<group>"; };
+		9BF5D76F2601BA7C00E87DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF5D7742601BA7C00E87DEE /* OTP-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OTP-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF5D7782601BA7C00E87DEE /* OTP_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_FirebaseUITests.swift; sourceTree = "<group>"; };
+		9BF5D77A2601BA7C00E87DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF5D7892601BAFE00E87DEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE3A2F4B87EBB5B5DE7E9E41 /* Pods_OTP_Firebase_OTP_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP_Firebase_OTP_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7364040BE406A2C9DDB7E01 /* Pods_OTP_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTP_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF5D7502601BA7A00E87DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD391251BC1524833B4B41 /* Pods_OTP_Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7662601BA7C00E87DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CC2C1498E7B8D224BACB0 /* Pods_OTP_FirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7712601BA7C00E87DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81BDAA772C93DD423DD9861 /* Pods_OTP_Firebase_OTP_FirebaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329E38C40CCB58EE55EBEC3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F94F875098C9EDD8ED9C766 /* Pods-OTP-Firebase.debug.xcconfig */,
+				4ABE96E9CE67B294074FB19C /* Pods-OTP-Firebase.release.xcconfig */,
+				6833AED11A6294F0D7660939 /* Pods-OTP-Firebase-OTP-FirebaseUITests.debug.xcconfig */,
+				941B0F8A199BE508EEBC20D5 /* Pods-OTP-Firebase-OTP-FirebaseUITests.release.xcconfig */,
+				88CB4AEFB097657479522EAA /* Pods-OTP-FirebaseTests.debug.xcconfig */,
+				3CB08E2E485DEB7405D78255 /* Pods-OTP-FirebaseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37833672D2176D2370BA7D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EF6573DC81139E75C6B4C2 /* Pods_OTP_Firebase.framework */,
+				AE3A2F4B87EBB5B5DE7E9E41 /* Pods_OTP_Firebase_OTP_FirebaseUITests.framework */,
+				D7364040BE406A2C9DDB7E01 /* Pods_OTP_FirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BF5D74A2601BA7A00E87DEE = {
+			isa = PBXGroup;
+			children = (
+				9BF5D7552601BA7A00E87DEE /* OTP-Firebase */,
+				9BF5D76C2601BA7C00E87DEE /* OTP-FirebaseTests */,
+				9BF5D7772601BA7C00E87DEE /* OTP-FirebaseUITests */,
+				9BF5D7542601BA7A00E87DEE /* Products */,
+				329E38C40CCB58EE55EBEC3F /* Pods */,
+				37833672D2176D2370BA7D3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF5D7542601BA7A00E87DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5D7532601BA7A00E87DEE /* OTP-Firebase.app */,
+				9BF5D7692601BA7C00E87DEE /* OTP-FirebaseTests.xctest */,
+				9BF5D7742601BA7C00E87DEE /* OTP-FirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF5D7552601BA7A00E87DEE /* OTP-Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5D7562601BA7A00E87DEE /* AppDelegate.swift */,
+				9BF5D7582601BA7A00E87DEE /* SceneDelegate.swift */,
+				9BF5D75A2601BA7A00E87DEE /* ContentView.swift */,
+				9BF5D75C2601BA7C00E87DEE /* Assets.xcassets */,
+				9BF5D7892601BAFE00E87DEE /* GoogleService-Info.plist */,
+				9BF5D7612601BA7C00E87DEE /* LaunchScreen.storyboard */,
+				9BF5D7642601BA7C00E87DEE /* Info.plist */,
+				9BF5D75E2601BA7C00E87DEE /* Preview Content */,
+			);
+			path = "OTP-Firebase";
+			sourceTree = "<group>";
+		};
+		9BF5D75E2601BA7C00E87DEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5D75F2601BA7C00E87DEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BF5D76C2601BA7C00E87DEE /* OTP-FirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5D76D2601BA7C00E87DEE /* OTP_FirebaseTests.swift */,
+				9BF5D76F2601BA7C00E87DEE /* Info.plist */,
+			);
+			path = "OTP-FirebaseTests";
+			sourceTree = "<group>";
+		};
+		9BF5D7772601BA7C00E87DEE /* OTP-FirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5D7782601BA7C00E87DEE /* OTP_FirebaseUITests.swift */,
+				9BF5D77A2601BA7C00E87DEE /* Info.plist */,
+			);
+			path = "OTP-FirebaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF5D7522601BA7A00E87DEE /* OTP-Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF5D77D2601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-Firebase" */;
+			buildPhases = (
+				C900CA376A6C197FF6C78139 /* [CP] Check Pods Manifest.lock */,
+				9BF5D74F2601BA7A00E87DEE /* Sources */,
+				9BF5D7502601BA7A00E87DEE /* Frameworks */,
+				9BF5D7512601BA7A00E87DEE /* Resources */,
+				04A6B855032C7C2E33B0B065 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTP-Firebase";
+			productName = "OTP-Firebase";
+			productReference = 9BF5D7532601BA7A00E87DEE /* OTP-Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF5D7682601BA7C00E87DEE /* OTP-FirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF5D7802601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-FirebaseTests" */;
+			buildPhases = (
+				112CCC40D5F8FF85567BFC75 /* [CP] Check Pods Manifest.lock */,
+				9BF5D7652601BA7C00E87DEE /* Sources */,
+				9BF5D7662601BA7C00E87DEE /* Frameworks */,
+				9BF5D7672601BA7C00E87DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF5D76B2601BA7C00E87DEE /* PBXTargetDependency */,
+			);
+			name = "OTP-FirebaseTests";
+			productName = "OTP-FirebaseTests";
+			productReference = 9BF5D7692601BA7C00E87DEE /* OTP-FirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF5D7732601BA7C00E87DEE /* OTP-FirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF5D7832601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-FirebaseUITests" */;
+			buildPhases = (
+				80BC40E4AE5FD0B93D005514 /* [CP] Check Pods Manifest.lock */,
+				9BF5D7702601BA7C00E87DEE /* Sources */,
+				9BF5D7712601BA7C00E87DEE /* Frameworks */,
+				9BF5D7722601BA7C00E87DEE /* Resources */,
+				A0A526F214F689A5DCF9B524 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF5D7762601BA7C00E87DEE /* PBXTargetDependency */,
+			);
+			name = "OTP-FirebaseUITests";
+			productName = "OTP-FirebaseUITests";
+			productReference = 9BF5D7742601BA7C00E87DEE /* OTP-FirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF5D74B2601BA7A00E87DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9BF5D7522601BA7A00E87DEE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9BF5D7682601BA7C00E87DEE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BF5D7522601BA7A00E87DEE;
+					};
+					9BF5D7732601BA7C00E87DEE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BF5D7522601BA7A00E87DEE;
+					};
+				};
+			};
+			buildConfigurationList = 9BF5D74E2601BA7A00E87DEE /* Build configuration list for PBXProject "OTP-Firebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF5D74A2601BA7A00E87DEE;
+			productRefGroup = 9BF5D7542601BA7A00E87DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF5D7522601BA7A00E87DEE /* OTP-Firebase */,
+				9BF5D7682601BA7C00E87DEE /* OTP-FirebaseTests */,
+				9BF5D7732601BA7C00E87DEE /* OTP-FirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF5D7512601BA7A00E87DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5D7632601BA7C00E87DEE /* LaunchScreen.storyboard in Resources */,
+				9BF5D78A2601BAFE00E87DEE /* GoogleService-Info.plist in Resources */,
+				9BF5D7602601BA7C00E87DEE /* Preview Assets.xcassets in Resources */,
+				9BF5D75D2601BA7C00E87DEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7672601BA7C00E87DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7722601BA7C00E87DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A6B855032C7C2E33B0B065 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase/Pods-OTP-Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase/Pods-OTP-Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase/Pods-OTP-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112CCC40D5F8FF85567BFC75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTP-FirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BC40E4AE5FD0B93D005514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTP-Firebase-OTP-FirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A526F214F689A5DCF9B524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase-OTP-FirebaseUITests/Pods-OTP-Firebase-OTP-FirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase-OTP-FirebaseUITests/Pods-OTP-Firebase-OTP-FirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTP-Firebase-OTP-FirebaseUITests/Pods-OTP-Firebase-OTP-FirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C900CA376A6C197FF6C78139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTP-Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF5D74F2601BA7A00E87DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5D7572601BA7A00E87DEE /* AppDelegate.swift in Sources */,
+				9BF5D7592601BA7A00E87DEE /* SceneDelegate.swift in Sources */,
+				9BF5D75B2601BA7A00E87DEE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7652601BA7C00E87DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5D76E2601BA7C00E87DEE /* OTP_FirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF5D7702601BA7C00E87DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5D7792601BA7C00E87DEE /* OTP_FirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF5D76B2601BA7C00E87DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF5D7522601BA7A00E87DEE /* OTP-Firebase */;
+			targetProxy = 9BF5D76A2601BA7C00E87DEE /* PBXContainerItemProxy */;
+		};
+		9BF5D7762601BA7C00E87DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF5D7522601BA7A00E87DEE /* OTP-Firebase */;
+			targetProxy = 9BF5D7752601BA7C00E87DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF5D7612601BA7C00E87DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF5D7622601BA7C00E87DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF5D77B2601BA7C00E87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF5D77C2601BA7C00E87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF5D77E2601BA7C00E87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F94F875098C9EDD8ED9C766 /* Pods-OTP-Firebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP-Firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OTP-Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF5D77F2601BA7C00E87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABE96E9CE67B294074FB19C /* Pods-OTP-Firebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP-Firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OTP-Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BF5D7812601BA7C00E87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CB4AEFB097657479522EAA /* Pods-OTP-FirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "OTP-FirebaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTP-Firebase.app/OTP-Firebase";
+			};
+			name = Debug;
+		};
+		9BF5D7822601BA7C00E87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB08E2E485DEB7405D78255 /* Pods-OTP-FirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "OTP-FirebaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTP-Firebase.app/OTP-Firebase";
+			};
+			name = Release;
+		};
+		9BF5D7842601BA7C00E87DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6833AED11A6294F0D7660939 /* Pods-OTP-Firebase-OTP-FirebaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "OTP-FirebaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OTP-Firebase";
+			};
+			name = Debug;
+		};
+		9BF5D7852601BA7C00E87DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941B0F8A199BE508EEBC20D5 /* Pods-OTP-Firebase-OTP-FirebaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56FNQ2F2V8;
+				INFOPLIST_FILE = "OTP-FirebaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "login.OTP-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OTP-Firebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF5D74E2601BA7A00E87DEE /* Build configuration list for PBXProject "OTP-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF5D77B2601BA7C00E87DEE /* Debug */,
+				9BF5D77C2601BA7C00E87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF5D77D2601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF5D77E2601BA7C00E87DEE /* Debug */,
+				9BF5D77F2601BA7C00E87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF5D7802601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-FirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF5D7812601BA7C00E87DEE /* Debug */,
+				9BF5D7822601BA7C00E87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF5D7832601BA7C00E87DEE /* Build configuration list for PBXNativeTarget "OTP-FirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF5D7842601BA7C00E87DEE /* Debug */,
+				9BF5D7852601BA7C00E87DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF5D74B2601BA7A00E87DEE /* Project object */;
+}
